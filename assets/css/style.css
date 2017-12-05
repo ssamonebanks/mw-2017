@@ -1,0 +1,81 @@
+*::before, *::after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.introtext {
+  font-size: 32px;
+  text-align: center;
+  color: #c3bfbf;
+  max-width: 844px;
+  border: 4px solid orange;
+  margin: 150px auto; }
+
+.homepagenav {
+  border: 1px solid green;
+  overflow: hidden;
+  margin-bottom: 185px; }
+
+.homepagelist {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.homepagelist li {
+  text-align: center;
+  display: block;
+  margin: 28px 35px;
+  text-decoration: none;
+  float: left; }
+
+header {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background-image: url("img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 640px; }
+
+h1 {
+  font-size: 92px;
+  color: white;
+  opacity: 100%;
+  line-height: 107px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  margin-bottom: 5px;
+  text-align: center;
+  border: 1px solid blue; }
+
+.startingp {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+  opacity: 100%;
+  line-height: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 22px;
+  text-align: center; }
+
+.CourseGoals ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.CourseGoals li {
+  float: left;
+  width: 33%;
+  border: 1px solid blue; }
+
+.Colearners ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.Colearners li {
+  float: left;
+  width: 25%;
+  border: 1px solid blue; }
